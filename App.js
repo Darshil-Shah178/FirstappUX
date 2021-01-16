@@ -67,7 +67,7 @@ export default function App() {
           height={32}
           style={styles.settings}
         />
-        <Text style={styles.hello}>Hello stranger, hope you are well</Text>
+        <Text style={styles.hello}>Hei Stranger, Welcome to My World</Text>
       </View>
       <View style={styles.infoArea}>
         <View style={styles.areaA}>
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   },
   header: {
     height: 270,
-    backgroundColor: 'yellow',
+    backgroundColor: '#003D73',
   },
   bgImage: {
     width: '100%',
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'orange',
+    backgroundColor: '#D3D3D3',
   },
   areaB: {
     flex: 8,
